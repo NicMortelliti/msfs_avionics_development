@@ -1,0 +1,23 @@
+{
+  "name": "msfs_avionics_development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@microsoft/msfs-sdk": "^0.4.0",
+    "@microsoft/msfs-types": "^1.14.6",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-import-css": "^3.2.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}
